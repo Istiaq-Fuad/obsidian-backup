@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a223661482dd6d30",
+        "id": "43d3075db0ad9f18",
         "type": "tabs",
         "children": [
           {
-            "id": "29abc0bc78e08e85",
+            "id": "41d2d7d1e65bad41",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -192,8 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,11 +209,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "29abc0bc78e08e85",
+  "active": "41d2d7d1e65bad41",
   "lastOpenFiles": [
-    "Algorithms/Binary Search and it's variations 1.md",
-    "Algorithms/Binary Search and it's variations.md",
     "Untitled.base",
+    "2025-11-15.md",
+    "Untitled.canvas",
+    "Algorithms/Binary Search and it's variations.md",
+    "Algorithms/Binary Search and it's variations 1.md",
     "ML Interview/DataSynthis/2ND ROUND SET-A.pdf",
     "Algorithms",
     "ML Interview/DataSynthis/Memory Management Strategies.md",
@@ -222,7 +223,6 @@
     "ML Interview/DataSynthis/AVL Tree.md",
     "ML Interview/coding round/AVL Tree 1.md",
     "ML Interview/DataSynthis/Minimum Spanning Tree(MST).md",
-    "Untitled.canvas",
     "2025-10-16.md",
     "BCI-research/SNN Presentation.md",
     "Untitled 1.base",
