@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Binary Search and it's variations"
             }
+          },
+          {
+            "id": "5a77988b384764af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux SysAdmin/Linux File System.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux File System"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML Interview/coding round/B-Tree.md",
+                "file": "Linux SysAdmin/Linux File System.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of B-Tree"
+              "title": "Outline of Linux File System"
             }
           },
           {
@@ -157,7 +172,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Algorithms/Binary Search and it's variations.md"
+                "file": "Linux SysAdmin/Linux File System.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -209,13 +224,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3d4fd362dc094631",
+  "active": "5a77988b384764af",
   "lastOpenFiles": [
+    "Linux SysAdmin/linux_file_system.png",
+    "Linux SysAdmin/Linux File System.md",
+    "Algorithms/Binary Search and it's variations.md",
+    "Linux SysAdmin",
     "BCI-research/Transfer Learning for EEG Classification with Limited Data.pdf",
     "Untitled.base",
     "2025-11-15.md",
     "Untitled.canvas",
-    "Algorithms/Binary Search and it's variations.md",
     "Algorithms/Binary Search and it's variations 1.md",
     "ML Interview/DataSynthis/2ND ROUND SET-A.pdf",
     "Algorithms",
