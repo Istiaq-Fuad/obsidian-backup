@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux SysAdmin/Access Control Lists.md",
+                "file": "Linux SysAdmin/Compressing and Decompressing Files in Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Access Control Lists"
+              "title": "Compressing and Decompressing Files in Linux"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux SysAdmin/Access Control Lists.md",
+                "file": "Linux SysAdmin/Compressing and Decompressing Files in Linux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Access Control Lists"
+              "title": "Outline of Compressing and Decompressing Files in Linux"
             }
           },
           {
@@ -254,14 +254,15 @@
   },
   "active": "51450e51be4242f2",
   "lastOpenFiles": [
-    "Linux SysAdmin/Filters & Text Processing Commands.md",
     "Linux SysAdmin/Piping Strategy.md",
-    "Linux SysAdmin/Access Control Lists.md",
-    "Linux SysAdmin/Find, Locate & Grep.md",
+    "Linux SysAdmin/Compressing and Decompressing Files in Linux.md",
     "Linux SysAdmin/Linux File Permissions.md",
-    "Linux SysAdmin/Linux File System and Links.md",
+    "Linux SysAdmin/Find, Locate & Grep.md",
+    "Linux SysAdmin/Filters & Text Processing Commands.md",
     "Linux SysAdmin/File & Directory modification.md",
     "Linux SysAdmin/Administration.md",
+    "Linux SysAdmin/Access Control Lists.md",
+    "Linux SysAdmin/Linux File System and Links.md",
     "Regular Expression.md",
     "Git.md",
     "Linux SysAdmin/linux_file_system.png",
