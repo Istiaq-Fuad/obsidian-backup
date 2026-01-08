@@ -17,27 +17,16 @@ Use a well-scoped tag (for example, `python:3.11-slim` or `node:20-alpine`) rath
 Use a small, logical sequence of instructions so layers are meaningful and cache-friendly. Typical order:
 
 1. `FROM` base
-    
 2. `LABEL` metadata
-    
 3. `ARG` and `ENV` for build-time and runtime variables
-    
 4. `WORKDIR`
-    
 5. `COPY` or `ADD` only what is required for the following `RUN` steps
-    
 6. `RUN` commands to install packages and build artifacts
-    
 7. `COPY` application source if build produced artifacts
-    
 8. `EXPOSE`, `VOLUME` as hints
-    
 9. `USER` to drop privileges
-    
 10. `HEALTHCHECK` and `STOPSIGNAL` if needed
-    
 11. `ENTRYPOINT` or `CMD` to set container runtime
-    
 
 ## 4. Common directives and how to use them
 

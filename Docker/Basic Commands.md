@@ -57,7 +57,7 @@ Runs an ubuntu container and exits if no command is kept running.
 Interactive shell.
 
 `docker run -d -p 8080:80 nginx`  
-Detached mode web server.
+Detached mode web server. Here `8080` is local port and `80` is docker internal port.
 
 `docker run --name myapp -v data:/data alpine ls /data`  
 Runs a container with a named volume.
@@ -141,4 +141,125 @@ Creates an image reflecting the container’s current state.
 
 `docker commit -m "Added tools" -a "Fuad" mycontainer workspace:image`  
 Adds a commit message and author info.
+
+## docker compose up
+
+Creates networks, volumes, and containers, then starts services.
+
+`docker compose up`  
+Starts services in foreground.
+
+`docker compose up -d`  
+Starts services in detached mode.
+
+`docker compose up --build`  
+Forces rebuild of images before starting.
+
+## docker compose down
+
+Stops and removes containers, default networks, and resources created by Compose.
+
+`docker compose down`  
+Stops and cleans up services.
+
+`docker compose down -v`  
+Also removes named volumes.
+
+`docker compose down --rmi all`  
+Removes images used by the services.
+
+## docker compose start
+
+Starts existing stopped services.
+
+`docker compose start`  
+Starts all stopped services.
+
+## docker compose stop
+
+Stops running services without removing containers.
+
+`docker compose stop`  
+Gracefully stops services.
+
+## docker compose restart
+
+Stops and then starts services again.
+
+`docker compose restart`  
+Restarts all services.
+
+`docker compose restart web`  
+Restarts a specific service.
+
+## docker compose ps
+
+Lists containers managed by the current Compose project.
+
+`docker compose ps`  
+Shows service status.
+
+## docker compose logs
+
+Displays logs from services.
+
+`docker compose logs`  
+Shows logs.
+
+`docker compose logs -f`  
+Follows logs in real time.
+
+`docker compose logs web`  
+Shows logs for a single service.
+
+## docker compose exec
+
+Runs a command inside a running service container.
+
+`docker compose exec app bash`  
+Opens an interactive shell.
+
+`docker compose exec db psql -U user`  
+Executes a command directly.
+
+## docker compose run
+
+Runs a one-off command in a new container.
+
+`docker compose run app npm test`  
+Runs a temporary container for a task.
+
+`docker compose run --rm app bash`  
+Removes the container after exit.
+
+## docker compose build
+
+Builds or rebuilds service images.
+
+`docker compose build`  
+Builds all services.
+
+`docker compose build api`  
+Builds a specific service.
+
+## docker compose pull
+
+Pulls images from registries.
+
+`docker compose pull`  
+Pulls all service images.
+
+## docker compose config
+
+Validates and displays the final Compose configuration.
+
+`docker compose config`  
+Checks syntax and resolves variables.
+
+## docker compose top
+
+Displays running processes inside service containers.
+
+`docker compose top`  
+Shows process list.
 
